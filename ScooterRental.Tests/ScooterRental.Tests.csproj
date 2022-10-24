@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ScooterRental.Core\ScooterRental.Core.csproj" />
+    <ProjectReference Include="..\ScooterRental\ScooterRental.csproj" />
   </ItemGroup>
 
 </Project>

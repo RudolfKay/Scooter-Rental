@@ -4,16 +4,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScooterRental.Tests", "ScooterRental.Tests\ScooterRental.Tests.csproj", "{B24CC536-8637-4BE3-875D-344E68906034}"
-	ProjectSection(ProjectDependencies) = postProject
-		{BCCB22AB-83C5-4911-8CF0-FFA4F9D4A636} = {BCCB22AB-83C5-4911-8CF0-FFA4F9D4A636}
-	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScooterRental.Core", "ScooterRental.Core\ScooterRental.Core.csproj", "{BCCB22AB-83C5-4911-8CF0-FFA4F9D4A636}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScooterRental", "ScooterRental\ScooterRental.csproj", "{82BEA5B3-C283-4C15-9AD2-8EE91FA6E3B1}"
-	ProjectSection(ProjectDependencies) = postProject
-		{BCCB22AB-83C5-4911-8CF0-FFA4F9D4A636} = {BCCB22AB-83C5-4911-8CF0-FFA4F9D4A636}
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScooterRental", "ScooterRental\ScooterRental.csproj", "{AA9873EB-E7B8-4BA8-822B-FB25818202DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +17,10 @@ Global
 		{B24CC536-8637-4BE3-875D-344E68906034}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B24CC536-8637-4BE3-875D-344E68906034}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B24CC536-8637-4BE3-875D-344E68906034}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BCCB22AB-83C5-4911-8CF0-FFA4F9D4A636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BCCB22AB-83C5-4911-8CF0-FFA4F9D4A636}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BCCB22AB-83C5-4911-8CF0-FFA4F9D4A636}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BCCB22AB-83C5-4911-8CF0-FFA4F9D4A636}.Release|Any CPU.Build.0 = Release|Any CPU
-		{82BEA5B3-C283-4C15-9AD2-8EE91FA6E3B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{82BEA5B3-C283-4C15-9AD2-8EE91FA6E3B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{82BEA5B3-C283-4C15-9AD2-8EE91FA6E3B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{82BEA5B3-C283-4C15-9AD2-8EE91FA6E3B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA9873EB-E7B8-4BA8-822B-FB25818202DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA9873EB-E7B8-4BA8-822B-FB25818202DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA9873EB-E7B8-4BA8-822B-FB25818202DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA9873EB-E7B8-4BA8-822B-FB25818202DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
