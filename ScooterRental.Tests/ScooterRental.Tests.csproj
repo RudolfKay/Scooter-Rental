@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ScooterRental\ScooterRental.csproj" />
+    <ProjectReference Include="..\ScooterRental.Core\ScooterRental.Core.csproj" />
   </ItemGroup>
 
 </Project>
