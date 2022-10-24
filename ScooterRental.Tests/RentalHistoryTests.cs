@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using ScooterRental.Exceptions;
 using FluentAssertions;
 using System;
+using ScooterRental.Interfaces;
 
 namespace ScooterRental.Tests
 {
     [TestClass]
     public class RentalHistoryTests
     {
-        private ScooterService _scooterService;
+        private IScooterService _scooterService;
         private List<Scooter> _inventory;
         private RentalHistory _rentalHistory;
         private List<RentedScooter> _rentedInventory;
