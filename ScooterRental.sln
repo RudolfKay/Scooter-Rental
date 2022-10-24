@@ -3,17 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScooterRental", "ScooterRental\ScooterRental.csproj", "{0F81E192-F81C-482B-B7F5-DA49AC318DB2}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScooterRental.Tests", "ScooterRental.Tests\ScooterRental.Tests.csproj", "{B24CC536-8637-4BE3-875D-344E68906034}"
-	ProjectSection(ProjectDependencies) = postProject
-		{BCCB22AB-83C5-4911-8CF0-FFA4F9D4A636} = {BCCB22AB-83C5-4911-8CF0-FFA4F9D4A636}
-	EndProjectSection
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScooterRental.Core", "ScooterRental.Core\ScooterRental.Core.csproj", "{BCCB22AB-83C5-4911-8CF0-FFA4F9D4A636}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScooterRental", "ScooterRental\ScooterRental.csproj", "{F377CE81-49D3-4C17-8D42-999C8E9AB1FA}"
-	ProjectSection(ProjectDependencies) = postProject
-		{BCCB22AB-83C5-4911-8CF0-FFA4F9D4A636} = {BCCB22AB-83C5-4911-8CF0-FFA4F9D4A636}
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F81E192-F81C-482B-B7F5-DA49AC318DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F81E192-F81C-482B-B7F5-DA49AC318DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F81E192-F81C-482B-B7F5-DA49AC318DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F81E192-F81C-482B-B7F5-DA49AC318DB2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B24CC536-8637-4BE3-875D-344E68906034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B24CC536-8637-4BE3-875D-344E68906034}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B24CC536-8637-4BE3-875D-344E68906034}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B24CC536-8637-4BE3-875D-344E68906034}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BCCB22AB-83C5-4911-8CF0-FFA4F9D4A636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BCCB22AB-83C5-4911-8CF0-FFA4F9D4A636}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BCCB22AB-83C5-4911-8CF0-FFA4F9D4A636}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BCCB22AB-83C5-4911-8CF0-FFA4F9D4A636}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F377CE81-49D3-4C17-8D42-999C8E9AB1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F377CE81-49D3-4C17-8D42-999C8E9AB1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F377CE81-49D3-4C17-8D42-999C8E9AB1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F377CE81-49D3-4C17-8D42-999C8E9AB1FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
