@@ -1,9 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
-using ScooterRental.Exceptions;
 using ScooterRental.Interfaces;
 using FluentAssertions;
 using System;
+using ScooterRental.Exceptions;
 
 namespace ScooterRental.Tests
 {
